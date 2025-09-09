@@ -32,7 +32,7 @@ The model is built using a **fully connected deep learning architecture (Dense l
 ---
 
 ## 🛠️ Model Architecture
-We used a **Multi-Layer Perceptron (MLP)** with dropout and batch normalization.
+used a **Multi-Layer Perceptron (MLP)** with dropout and batch normalization.
 
 ```python
 model = Sequential([
@@ -67,7 +67,7 @@ Metrics: Accuracy
 ## ✅ Future Improvements
 
 - Collect a **larger, balanced dataset**  
-- Use **CNNs / Transfer Learning (ResNet, VGG, MobileNet)** for better accuracy (if allowed)  
+- Use **CNNs / Transfer Learning (ResNet, VGG, MobileNet)** for better accuracy 
 - Add **object detection (Faster R-CNN, YOLO)** to locate defects, not just classify  
 - Deploy model using **Flask / FastAPI API** for real-world testing  
 
